@@ -25,7 +25,7 @@ export default function Contact() {
               Contactez-Nous
             </h1>
             <p className="text-xl text-white/90 mb-8 max-w-2xl">
-              Nous sommes impatients de vous accueillir à l'Auberge des Fontaines. Contactez-nous pour réserver une table, organiser un événement ou simplement poser une question.
+              Nous sommes impatients de vous accueillir à l&apos;Auberge des Fontaines. Contactez-nous pour réserver une table, organiser un événement ou simplement poser une question.
             </p>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function Contact() {
         <div className="absolute inset-0 -z-10">
           <Image
             src="/images/contact-hero.jpg"
-            alt="L'entrée accueillante de l'Auberge des Fontaines"
+            alt="L&apos;entrée accueillante de l&apos;Auberge des Fontaines"
             fill
             className="object-cover"
             sizes="100vw"
@@ -60,7 +60,7 @@ export default function Contact() {
                 Envoyez-nous un Message
               </h2>
               <p className="text-lg mb-8">
-                Que ce soit pour une réservation, une demande d'informations ou des commentaires, nous sommes là pour vous aider. Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.
+                Que ce soit pour une réservation, une demande d&apos;informations ou des commentaires, nous sommes là pour vous aider. Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.
               </p>
 
               <form className="space-y-6">
@@ -137,7 +137,7 @@ export default function Contact() {
                     <option value="">Sélectionnez un sujet</option>
                     <option value="reservation">Réservation</option>
                     <option value="event">Événement privé</option>
-                    <option value="inquiry">Demande d'informations</option>
+                    <option value="inquiry">Demande d&apos;informations</option>
                     <option value="feedback">Commentaires</option>
                     <option value="other">Autre</option>
                   </select>
@@ -203,7 +203,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-xl font-medium mb-2 text-secondary-dark">
-                    Horaires d'Ouverture
+                    Horaires d&apos;Ouverture
                   </h3>
                   <ul className="text-gray-700 space-y-1">
                     <li>Lundi: Fermé</li>
@@ -286,7 +286,7 @@ export default function Contact() {
                   style={{ border: 0 }}
                   allowFullScreen={true}
                   loading="lazy"
-                  title="Carte de l'Auberge des Fontaines"
+                  title="Carte de l&apos;Auberge des Fontaines"
                 ></iframe>
               </div>
               <div className="p-6">
@@ -299,7 +299,7 @@ export default function Contact() {
                       En Voiture
                     </h4>
                     <p className="text-gray-700">
-                      Depuis Strasbourg (2h) : Suivez l'A35 puis la D415 en direction de Colmar, puis continuez sur la D417 vers Gérardmer. L'Auberge des Fontaines est située à 3 km au nord de Gérardmer, sur la Route des Montagnes.
+                      Depuis Strasbourg (2h) : Suivez l&apos;A35 puis la D415 en direction de Colmar, puis continuez sur la D417 vers Gérardmer. L&apos;Auberge des Fontaines est située à 3 km au nord de Gérardmer, sur la Route des Montagnes.
                     </p>
                   </div>
                   <div>
@@ -307,7 +307,7 @@ export default function Contact() {
                       En Train
                     </h4>
                     <p className="text-gray-700">
-                      La gare la plus proche est celle de Saint-Dié-des-Vosges (30 km). Des services de taxi sont disponibles à la gare, ou contactez-nous à l'avance pour organiser un transfert.
+                      La gare la plus proche est celle de Saint-Dié-des-Vosges (30 km). Des services de taxi sont disponibles à la gare, ou contactez-nous à l&apos;avance pour organiser un transfert.
                     </p>
                   </div>
                   <div>
@@ -334,7 +334,7 @@ export default function Contact() {
           <div className="max-w-3xl mx-auto space-y-6">
             {[
               {
-                question: "Dois-je réserver une table à l'avance ?",
+                question: "Dois-je réserver une table à l&apos;avance ?",
                 answer:
                   "Oui, nous recommandons vivement de réserver, surtout pour les dîners et les week-ends. Vous pouvez réserver par téléphone ou via notre formulaire de réservation en ligne.",
               },
@@ -346,12 +346,12 @@ export default function Contact() {
               {
                 question: "Pouvez-vous organiser des événements privés ou des célébrations ?",
                 answer:
-                  "Oui, nous disposons d'une salle privée pouvant accueillir jusqu'à 20 personnes pour des dîners ou des événements. Notre chef peut créer un menu personnalisé pour votre occasion spéciale. Contactez-nous pour plus de détails.",
+                  "Oui, nous disposons d&apos;une salle privée pouvant accueillir jusqu&apos;à 20 personnes pour des dîners ou des événements. Notre chef peut créer un menu personnalisé pour votre occasion spéciale. Contactez-nous pour plus de détails.",
               },
               {
                 question: "Y a-t-il des activités à proximité ?",
                 answer:
-                  "L'Auberge des Fontaines est idéalement située pour explorer les montagnes des Vosges. Des sentiers de randonnée commencent juste derrière notre propriété, et le lac de Gérardmer est à seulement 3 km. Nous serons ravis de vous conseiller sur les activités locales.",
+                  "L&apos;Auberge des Fontaines est idéalement située pour explorer les montagnes des Vosges. Des sentiers de randonnée commencent juste derrière notre propriété, et le lac de Gérardmer est à seulement 3 km. Nous serons ravis de vous conseiller sur les activités locales.",
               },
               {
                 question: "Acceptez-vous les animaux de compagnie ?",

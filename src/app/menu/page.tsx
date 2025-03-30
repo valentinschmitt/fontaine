@@ -43,7 +43,7 @@ export default function Menu() {
             Notre Philosophie Culinaire
           </h2>
           <p className="text-lg mb-8">
-            À l'Auberge des Fontaines, nous croyons que la meilleure cuisine vient d'ingrédients frais et locaux. Notre menu célèbre les saveurs authentiques des Vosges, avec des plats traditionnels réinventés par notre Chef Michel Dubois et son équipe talentueuse.
+            À l&apos;Auberge des Fontaines, nous croyons que la meilleure cuisine vient d&apos;ingrédients frais et locaux. Notre menu célèbre les saveurs authentiques des Vosges, avec des plats traditionnels réinventés par notre Chef Michel Dubois et son équipe talentueuse.
           </p>
           <div className="flex items-center justify-center space-x-2 text-sm text-gray-600">
             <span className="flex items-center">
@@ -191,7 +191,7 @@ export default function Menu() {
                 {
                   name: "Tarte Flambée aux Champignons Sauvages",
                   description:
-                    "Notre version végétarienne de la tarte flambée alsacienne, garnie de champignons sauvages, d'oignons caramélisés, de fromage frais et d'huile de truffe.",
+                    "Notre version végétarienne de la tarte flambée alsacienne, garnie de champignons sauvages, d&apos;oignons caramélisés, de fromage frais et d&apos;huile de truffe.",
                   price: "22€",
                   tags: ["green"],
                   image: "/images/menu/tarte_champignon.png",
@@ -335,7 +335,7 @@ export default function Menu() {
               Notre Carte des Vins
             </h2>
             <p className="text-lg text-center mb-8">
-              Découvrez notre sélection soigneusement élaborée de vins d'Alsace et d'autres régions françaises, parfaitement assortis à notre menu. Demandez à notre sommelier de vous recommander le vin idéal pour accompagner votre repas.
+              Découvrez notre sélection soigneusement élaborée de vins d&apos;Alsace et d&apos;autres régions françaises, parfaitement assortis à notre menu. Demandez à notre sommelier de vous recommander le vin idéal pour accompagner votre repas.
             </p>
             <div className="text-center">
               <button className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-md transition-colors inline-block font-medium">
@@ -364,10 +364,10 @@ export default function Menu() {
                 Dîners Privés & Événements
               </h2>
               <p className="text-lg mb-6">
-                Pour les occasions spéciales, nous proposons une salle à manger privée élégante pouvant accueillir jusqu'à 20 personnes. Notre chef peut créer un menu personnalisé pour votre événement, mettant en valeur les meilleurs produits de saison.
+                Pour les occasions spéciales, nous proposons une salle à manger privée élégante pouvant accueillir jusqu&apos;à 20 personnes. Notre chef peut créer un menu personnalisé pour votre événement, mettant en valeur les meilleurs produits de saison.
               </p>
               <p className="text-lg mb-8">
-                Que ce soit pour un dîner d'affaires, une célébration familiale ou un événement spécial, notre équipe veillera à ce que votre expérience soit mémorable.
+                Que ce soit pour un dîner d&apos;affaires, une célébration familiale ou un événement spécial, notre équipe veillera à ce que votre expérience soit mémorable.
               </p>
               <button className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-md transition-colors inline-block font-medium">
                 Demander des Informations

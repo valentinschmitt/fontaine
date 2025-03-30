@@ -31,7 +31,7 @@ export default function About() {
               Notre Histoire
             </h1>
             <p className="text-xl text-white/90 mb-8 max-w-2xl">
-              Découvrez l'histoire, les valeurs et les personnes qui font de l'Auberge des
+              Découvrez l&apos;histoire, les valeurs et les personnes qui font de l&apos;Auberge des
               Fontaines un lieu emblématique de la gastronomie dans les montagnes des Vosges.
             </p>
           </div>
@@ -40,7 +40,7 @@ export default function About() {
         <div className="absolute inset-0 -z-10">
           <Image
             src="/images/about-hero.jpg"
-            alt="Photo historique de l'Auberge des Fontaines"
+            alt="Photo historique de l&apos;Auberge des Fontaines"
             fill
             className="object-cover"
             sizes="100vw"
@@ -67,7 +67,7 @@ export default function About() {
             >
               <Image
                 src="/images/farmhouse-history.jpg"
-                alt="Ferme historique devenue l'Auberge des Fontaines"
+                alt="Ferme historique devenue l&apos;Auberge des Fontaines"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -82,14 +82,14 @@ export default function About() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6 text-primary-dark">
-                Histoire de l'Auberge des Fontaines
+                Histoire de l&apos;Auberge des Fontaines
               </h2>
               <div className="space-y-4">
                 <p>
-                  L'histoire de l'Auberge des Fontaines commence en 1892, lorsque la
+                  L&apos;histoire de l&apos;Auberge des Fontaines commence en 1892, lorsque la
                   famille Dubois a construit une ferme traditionnelle au cœur des
                   montagnes des Vosges. Pendant des générations, la ferme a servi à la fois
-                  de maison familiale et d'exploitation agricole, la famille élevant du bétail
+                  de maison familiale et d&apos;exploitation agricole, la famille élevant du bétail
                   et cultivant les terres environnantes.
                 </p>
                 <p>
@@ -102,12 +102,12 @@ export default function About() {
                   Ce qui a commencé comme une modeste salle à manger avec seulement six tables
                   a rapidement gagné en popularité auprès des habitants et des visiteurs.
                   La réputation du restaurant pour sa cuisine authentique et son accueil
-                  chaleureux s'est répandue dans toute la région, conduisant à plusieurs
+                  chaleureux s&apos;est répandue dans toute la région, conduisant à plusieurs
                   agrandissements au fil des ans.
                 </p>
                 <p>
-                  Aujourd'hui, sous la direction du Chef Michel Dubois et de son épouse
-                  Sophie, l'Auberge des Fontaines est devenue une destination culinaire
+                  Aujourd&apos;hui, sous la direction du Chef Michel Dubois et de son épouse
+                  Sophie, l&apos;Auberge des Fontaines est devenue une destination culinaire
                   qui honore ses racines rustiques tout en embrassant la gastronomie moderne.
                   La structure originale de la ferme a été soigneusement préservée et restaurée,
                   conservant le caractère authentique qui en a fait un lieu emblématique
@@ -130,7 +130,7 @@ export default function About() {
               Notre Philosophie & Nos Valeurs
             </h2>
             <p className="text-lg">
-              À l'Auberge des Fontaines, notre approche de l'hospitalité et de la cuisine
+              À l&apos;Auberge des Fontaines, notre approche de l&apos;hospitalité et de la cuisine
               est guidée par un ensemble de valeurs fondamentales qui sont restées
               inchangées depuis notre création.
             </p>
@@ -183,7 +183,7 @@ export default function About() {
               {
                 title: "Hospitalité Chaleureuse",
                 description:
-                  "Nous croyons en la création d'un environnement accueillant où chaque invité se sent comme un membre de notre famille. Notre service est attentif, personnalisé et authentique, reflétant la chaleur de notre communauté montagnarde.",
+                  "Nous croyons en la création d&apos;un environnement accueillant où chaque invité se sent comme un membre de notre famille. Notre service est attentif, personnalisé et authentique, reflétant la chaleur de notre communauté montagnarde.",
                 icon: (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -241,7 +241,7 @@ export default function About() {
               {
                 name: "Michel Dubois",
                 role: "Chef & Propriétaire",
-                bio: "Quatrième génération Dubois, Michel s'est formé à Paris avant de revenir au restaurant familial. Il combine techniques traditionnelles et approches innovantes pour créer les plats signatures de l'Auberge des Fontaines.",
+                bio: "Quatrième génération Dubois, Michel s&apos;est formé à Paris avant de revenir au restaurant familial. Il combine techniques traditionnelles et approches innovantes pour créer les plats signatures de l&apos;Auberge des Fontaines.",
                 image: "/images/chef-michel.jpg",
               },
               {
@@ -299,7 +299,7 @@ export default function About() {
             Vivez Notre Tradition
           </h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Rejoignez-nous à l'Auberge des Fontaines pour découvrir notre mélange unique de
+            Rejoignez-nous à l&apos;Auberge des Fontaines pour découvrir notre mélange unique de
             charme rustique, cuisine authentique et hospitalité chaleureuse.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">

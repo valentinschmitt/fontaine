@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-xl font-serif mb-4">Horaires d'Ouverture</h3>
+            <h3 className="text-xl font-serif mb-4">Horaires d&apos;Ouverture</h3>
             <ul className="space-y-2">
               <li>Lundi: Fermé</li>
               <li>Mardi - Vendredi: 12h00 - 14h00, 19h00 - 22h00</li>
@@ -81,8 +81,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 pt-6 mt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} Auberge des Fontaines. Tous droits
-              réservés.
+              &copy; {new Date().getFullYear()} Auberge des Fontaines. Tous droits réservés.
             </p>
             <div className="flex space-x-6">
               <Link

@@ -28,7 +28,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/images/auberge.png"
-            alt="Extérieur de l'Auberge des Fontaines avec vue sur la montagne"
+            alt="Extérieur de l&#39;Auberge des Fontaines avec vue sur la montagne"
             fill
             priority
             className="object-cover"
@@ -50,7 +50,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg md:text-xl mb-8 max-w-2xl"
           >
-            Découvrez l'élégance rustique et la cuisine authentique dans notre
+            Découvrez l&apos;élégance rustique et la cuisine authentique dans notre
             ferme restaurée nichée au cœur des magnifiques montagnes des Vosges
           </motion.p>
           <motion.div
@@ -73,10 +73,10 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6 text-primary-dark">
-              Bienvenue à l'Auberge des Fontaines
+              Bienvenue à l&apos;Auberge des Fontaines
             </h2>
             <p className="text-lg mb-8">
-              Nichée au cœur des montagnes des Vosges, l'Auberge des Fontaines
+              Nichée au cœur des montagnes des Vosges, l&apos;Auberge des Fontaines
               vous offre une expérience culinaire unique qui allie le charme rustique
               à une cuisine raffinée. Notre restaurant est aménagé dans une ferme
               soigneusement restaurée qui préserve le caractère authentique de la région
@@ -124,13 +124,13 @@ export default function Home() {
               {
                 title: "Tarte Flambée",
                 description:
-                  "Flammekueche traditionnelle alsacienne garnie de crème fraîche, d'oignons finement tranchés et de lardons fumés de notre producteur local.",
+                  "Flammekueche traditionnelle alsacienne garnie de crème fraîche, d&apos;oignons finement tranchés et de lardons fumés de notre producteur local.",
                 image: "/images/tarte_flambée.png",
               },
               {
                 title: "Baeckeoffe",
                 description:
-                  "Une savoureuse terrine de viandes marinées, pommes de terre et légumes, mijotée lentement dans un plat en céramique scellé avec du vin blanc d'Alsace.",
+                  "Une savoureuse terrine de viandes marinées, pommes de terre et légumes, mijotée lentement dans un plat en céramique scellé avec du vin blanc d&apos;Alsace.",
                 image: "/images/Baeckeoffe.png",
               },
             ].map((dish, index) => (
@@ -194,11 +194,11 @@ export default function Home() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6 text-primary-dark">
-                Vivez l'Expérience des Vosges
+                Vivez l&apos;Expérience des Vosges
               </h2>
               <p className="text-lg mb-6">
                 Dînez dans notre intérieur chaleureux avec un feu de cheminée
-                crépitant pendant les mois d'hiver, ou profitez des vues
+                crépitant pendant les mois d&apos;hiver, ou profitez des vues
                 panoramiques sur les montagnes depuis nos terrasses extérieures
                 en été. Notre restaurant vous offre une expérience véritablement
                 immersive dans la beauté naturelle de la région des Vosges.
@@ -314,14 +314,14 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Soirées Fondue d'Hiver",
+                title: "Soirées Fondue d&apos;Hiver",
                 description:
                   "Tous les jeudis en hiver, dégustez notre fondue spéciale aux fromages locaux accompagnée de vins régionaux sélectionnés.",
                 date: "Décembre - Mars",
                 image: "/images/fondue.png",
               },
               {
-                title: "Barbecues d'Été en Terrasse",
+                title: "Barbecues d&apos;Été en Terrasse",
                 description:
                   "Rejoignez-nous sur notre terrasse pour des barbecues le week-end mettant en vedette des viandes locales et des légumes de notre jardin.",
                 date: "Juin - Août",
@@ -330,7 +330,7 @@ export default function Home() {
               {
                 title: "Menu Festival des Récoltes",
                 description:
-                  "Célébrez les récoltes d'automne avec notre menu spécial mettant en valeur les champignons de saison, le gibier et les produits frais.",
+                  "Célébrez les récoltes d&apos;automne avec notre menu spécial mettant en valeur les champignons de saison, le gibier et les produits frais.",
                 date: "Septembre - Octobre",
                 image: "/images/recolte.png",
               },
@@ -374,10 +374,10 @@ export default function Home() {
       <section className="py-16 bg-primary-dark text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">
-            Prêt à Vivre l'Expérience de l'Auberge des Fontaines ?
+            Prêt à Vivre l&apos;Expérience de l&apos;Auberge des Fontaines ?
           </h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
-            Réservez votre table dès aujourd'hui et plongez dans le charme rustique
+            Réservez votre table dès aujourd&apos;hui et plongez dans le charme rustique
             et les délices culinaires des montagnes des Vosges.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">

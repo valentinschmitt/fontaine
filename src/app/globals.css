@@ -1,26 +1,129 @@
 @import "tailwindcss";
 
 :root {
+  /* Base colors */
   --background: #ffffff;
   --foreground: #171717;
+  
+  /* Brand colors - Rustic, warm, nature-inspired palette */
+  --primary: #7D5A50; /* Warm brown */
+  --primary-dark: #5D4037; /* Deep brown */
+  --secondary: #A4BE7B; /* Sage green */
+  --secondary-dark: #5F8D4E; /* Deep green */
+  --accent: #E5B299; /* Soft beige */
+  --accent-dark: #C8A27D; /* Warm wood */
+  
+  /* UI colors */
+  --card: #FFFFFF;
+  --card-foreground: #171717;
+  --border: #E5E7EB;
+  --input: #F3F4F6;
+  --ring: #7D5A50;
+  
+  /* Typography */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-playfair);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-secondary: var(--secondary);
+  --color-secondary-dark: var(--secondary-dark);
+  --color-accent: var(--accent);
+  --color-accent-dark: var(--accent-dark);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-serif);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --card: #171717;
+    --card-foreground: #ededed;
+    --border: #27272A;
+    --input: #27272A;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+@layer base {
+  h1, h2, h3, h4, h5 {
+    font-family: var(--font-serif);
+  }
+  
+  p {
+    line-height: 1.7;
+  }
+}
+
+.hero-section {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0 1rem;
+}
+
+.section-padding {
+  padding: 5rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding: 7rem 2rem;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Animation classes */
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.6s ease-in;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
+
+.slide-up {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: transform 0.6s ease-out, opacity 0.6s ease-in;
+}
+
+.slide-up.visible {
+  transform: translateY(0);
+  opacity: 1;
 }
